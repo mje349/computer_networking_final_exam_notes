@@ -1,0 +1,23 @@
+SEC 4.3
+
+R22.) What is the 32-bit binary equivalent of the IP address 223.1.3.27
+
+11011111.00000001.00000011.00011011
+
+R27.) What is meant by the term "route aggregation"? Why is it useful for a router to perform route
+aggregation?
+
+The ability to use a single prefix to advertise multiple networks is often referred to as route aggregation.
+This is useful because an ISP can use this technique to advertise to the rest of the internet a single prefix
+address for the multiple networks that the ISP has.
+
+
+R31.) It has been said that when IPv6 Tunnels through IPv4 routers, IPv6 treats the IPv4 tunnels as link-layer
+protocols. Do you agree with this statement? Why or why not?
+
+Yes - when IPv6 tunnels through IPv4 routers, IPv6 treats the IPv4 tunnels as link-layer protocols. This is
+because the IPv6 datagram is fully encapsulated in an IPv4 datagram.
+
+P15.) Suppose datagrams are limited to 1,500 bytes (including header) between source Host A and destination Host B.
+Assuming a 20-byte IP header, how many datagrams would be required to send an MP3 consisiting of 5 million bytes?
+Explain how you computed your answer.
